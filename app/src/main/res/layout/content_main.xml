@@ -19,6 +19,7 @@
         android:layout_centerInParent="true"
         android:src="@drawable/android_nn"
         app:civ_border_width="2dp"
-        app:civ_border_color="@color/colorAccent"/>
+        app:civ_border_color="@color/colorAccent"
+        android:id="@+id/ImageView_circular" />
 
 </RelativeLayout>

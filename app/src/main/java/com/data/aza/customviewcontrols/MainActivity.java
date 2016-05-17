@@ -34,6 +34,19 @@ public class MainActivity extends AppCompatActivity {
                 Log.d(TAG, "Replace Action");
             }
         });
+
+        findViewById(R.id.ImageView_circular).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Snackbar.make(view, "Hi! I am Circular Image", Snackbar.LENGTH_LONG)
+                        .setAction("Action", new View.OnClickListener() {
+                            @Override
+                            public void onClick(View v) {
+//                            Define Your Action Here
+                            }
+                        }).show();
+            }
+        });
     }
 
     @Override
